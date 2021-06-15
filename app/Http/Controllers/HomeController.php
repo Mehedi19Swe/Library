@@ -13,6 +13,7 @@ class HomeController extends Controller
         return view('about');
     }
     public function advanced(){
+       // dd('inside');
         return view('advanced');
     }
 }

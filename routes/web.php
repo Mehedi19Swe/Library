@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
 Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->name('about');
-Route::get('/advanced', [App\Http\Controllers\HomeController::class, 'advanced'])->name('advanced');
+Route::get('/advanced-search', [App\Http\Controllers\HomeController::class, 'advanced'])->name('advanced.search');

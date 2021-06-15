@@ -169,7 +169,7 @@
                                     <li><a href="gallery-mesnory.html">WhatsApp</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Advanced Search</a>
+                            <li><a href="{{route('advanced.search')}}">Advanced Search</a>
                             </li>
                     </div>
                     <!--DL Menu Start-->
